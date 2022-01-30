@@ -12,10 +12,10 @@ public class TestSobreescritura {
         imprimir(empleado);
         Gerente gerente = new Gerente("Karla", 10000, "Contabilidad");
 //        System.out.println("gerente = " + gerente.obtenerDetalles());
-        imprimir(gerente);
+        imprimir(gerente); //usa el obtenerDetalles ya que apunta a una referencia de la clase hija y porque exite una relacion de herencia entre Empleado y Gerente
     }
     
-    public static void imprimir(Empleado empleado){ //el empleado que se le pasa tambien puede actuar como gerente
+    public static void imprimir(Empleado empleado){ //el Empleado que se le pasa tambien puede actuar como Gerente
         System.out.println("empleado = " + empleado.obtenerDetalles());
     }
 }
