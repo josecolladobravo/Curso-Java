@@ -1,0 +1,1 @@
+Esta sección no tiene nada ya que habla de los fundamentos de MySQL y como crear una base de datos, tabla, y hacer las operaciones INSERT, UPDATE, DELETE Y SELECT
