@@ -11,8 +11,8 @@ public class TestManejoPersonas {
         
         
         //Insertando un nuevo objeto de tipo Persona
-//        Persona personaNueva = new Persona("Carlos", "Esparza", "cesparza@mail.com", "2345252");
-//        personaDao.insertar(personaNueva);
+        Persona personaNueva = new Persona("Miguel", "Ruiz", "mruiz@mail.com", "234342");
+        personaDao.insertar(personaNueva);
         
 
         
@@ -23,7 +23,7 @@ public class TestManejoPersonas {
 
         
         //borrar
-        Persona persona3 = new Persona(4);
+        Persona persona3 = new Persona(1);
         personaDao.borrar(persona3);
         
         List<Persona> personas = personaDao.seleccionar();
